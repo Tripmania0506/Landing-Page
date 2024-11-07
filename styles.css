@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background: url('turismo-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.benefits, .about-course, .testimonials, .signup-form {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefits h2, .about-course h2, .testimonials h2, .signup-form h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.benefits ul, .about-course ul {
+    list-style-type: none;
+}
+
+.benefits ul li, .about-course ul li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.testimonial {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.signup-form input[type="text"], .signup-form input[type="email"] {
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-links {
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
